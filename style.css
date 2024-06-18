@@ -1,0 +1,15 @@
+.header {
+        background: grey;
+        padding: 80px;
+        color: white;
+        front-size: 16px;
+}
+
+.main {
+        background: lightslategray;
+}
+
+.footer {
+        background: grey;
+}
+

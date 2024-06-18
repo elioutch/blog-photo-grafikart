@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <title>Blog photo, contact</title>
+        <meta name="Blog photo">
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <h1>Contacts</h1>
+     
+        <h2>Formulaire de contact</h2>
+        <p>
+            Merci de remplir ce formulaire pour toutes questions. <br>
+        </p>
+        <form action="contact.html">
+    <div>
+        <label for="nom">Nom</label>
+        <input type="text">
+        </div>
+
+    <div>
+        <label for="firstname">Prénom</label>
+        <input type="text" required id="firstname" name="firstname">
+    </div>
+
+    <div>
+        <label for="sexe">Sexe</label>
+    
+        <label for="masculin">Masculin</label>
+        <input type="radio" id="masculin" value="Masculin" name="sexe" checked>
+ 
+        <label for="feminin">Féminin</label>
+        <input type="radio" id="feminin" value="Féminin" name="sexe" checked>
+  
+        <label for="autre">Autres</label>
+        <input type="radio" id="autre" value="Autres" name="sexe" checked>
+    </div>
+
+    <div>
+        <label for="email">Email <sup>*</sup></label>
+        <input type="email" required id="email" name="email" placeholder="votre@email.fr">
+    </div>
+
+    <div>
+        <label for="telephone">Téléphone <sub>*</sub></label>
+        <input type="tel" required>
+    </div>
+
+    <div>
+        <label for="message">Votre message</label>
+        <textarea required name="message" id="message" rows="10" cols="40"></textarea>
+    </div>
+
+    <div>
+        <button type="submit">Envoyer</button>
+    </div>
+        </form>   
+        <br>
+    
+    <h2>Localisation</h2>
+        <p>
+            J'interviens dans le secteur de Lyon et ses alentours. <br>
+            <em>Tarifs variables selons frais kilométriques.</em>
+            <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d178153.88721689663!2d4.670666319566055!3d45.758072271122906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea516ae88797%3A0x408ab2ae4bb21f0!2sLyon!5e0!3m2!1sfr!2sfr!4v1717580484893!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </p>
+        <br>
+
+<h2>Réseaux sociaux</h2>
+    <p>
+        Vous pouvez également me retrouver sur Facebook "Eli Art" ou Instagram. <br>
+        Ou me contacter par téléphone au 06-60-36-37-14
+    </p>
+<br>
+    <p>
+        Retour sur la <a href="index.html">page d'accueil</a> ou voir les <a href="prestation.html">tarifs.</a>
+    </p>
+
+</body>
+</html>
